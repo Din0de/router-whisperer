@@ -14,13 +14,13 @@ Secure password input using getpass
 **Install the required package(s) on Ubuntu:**
 
 Update the package list:
-sudo apt update
+**sudo apt update**
 
 Install pip (if it's not already installed):
-sudo apt install python3-pip
+**sudo apt install python3-pip**
 
 Install Paramiko using pip:
-pip3 install paramiko
+**pip3 install paramiko**
 
 ---------------------------------------------------------
 
