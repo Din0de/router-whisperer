@@ -1,6 +1,6 @@
 # router-whisperer
 
-This script includes:
+**This script includes:**
 
 A RouterConfigurator class that handles all router operations
 SSH connectivity using paramiko
@@ -11,7 +11,7 @@ Secure password input using getpass
 
 ---------------------------------------------------------
 
-Install the required package(s) on Ubuntu:
+**Install the required package(s) on Ubuntu:**
 
 Update the package list:
 sudo apt update
@@ -24,12 +24,12 @@ pip3 install paramiko
 
 ---------------------------------------------------------
 
-Make sure you have network connectivity to the router
-Have valid credentials for the router
+Make sure you have network connectivity to the router.
+Also make sure to have valid credentials for the router.
 
 ---------------------------------------------------------
 
-Best tested with:
+**Best tested with:**
 
 Best tested using Ubuntu virtual machines imported into GNS3. 
 You can set up Linux-based VMs in GNS3 and connect them to 
@@ -37,7 +37,7 @@ Cisco routers to fully simulate and test the configuration process.
 
 ---------------------------------------------------------
 
-The script provides:
+**The script provides:**
 
 Secure SSH connections
 Error handling for connection issues
@@ -47,7 +47,7 @@ Clean disconnection when finished
 
 ---------------------------------------------------------
 
-When running the script, it will:
+**When running the script, it will:**
 
 Prompt for router connection details
 Connect to the router
